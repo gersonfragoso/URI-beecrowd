@@ -10,10 +10,10 @@ public class BEE2377 {
         int K = sc.nextInt();
         int P = sc.nextInt();
 
-        int numPedagios = 111/37;
-        int custPedagios = P *numPedagios;
-        int CustRodovia = L*K;
-        int CustTotal = custPedagios+CustRodovia;
+        int numPedagios = 111 / 37;
+        int custPedagios = P * numPedagios;
+        int CustRodovia = L * K;
+        int CustTotal = custPedagios + CustRodovia;
 
         System.out.println(CustTotal);
     }

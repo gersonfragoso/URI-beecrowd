@@ -1,6 +1,7 @@
 package URI.Origens.OBI2010;
 
 import java.util.Scanner;
+
 // NAO RESOLVIDO;
 public class BEE2371 {
     public static void main(String[] args) {
@@ -27,7 +28,7 @@ public class BEE2371 {
                     acertos++;
                     destruirNavio(tabuleiro, posI, posJ); // Marca to,do o navio como destruído
                 }
-            } 
+            }
         }
 
         System.out.println(acertos);
@@ -39,8 +40,8 @@ public class BEE2371 {
         int matrizJ = tabuleiro[0].length;
 
 
-        if (posI == 0 && posJ ==0 || posJ == 0 && posI >0||posI == 0 && posJ >0){
-            if (posI == 0 && posJ ==0){
+        if (posI == 0 && posJ == 0 || posJ == 0 && posI > 0 || posI == 0 && posJ > 0) {
+            if (posI == 0 && posJ == 0) {
 
             }
         }

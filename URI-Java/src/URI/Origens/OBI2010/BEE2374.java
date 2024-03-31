@@ -8,7 +8,7 @@ public class BEE2374 {
         int p = sc.nextInt();
         int pf = sc.nextInt();
 
-        System.out.println(p-pf);
+        System.out.println(p - pf);
         sc.close();
     }
 }

@@ -30,18 +30,18 @@ public class BEE2370 {
         }
         Collections.sort(alunos, Comparator.comparingInt(a -> -a.habilidade)); //ordenar em ordem decresente
 
-        ArrayList<ArrayList<String>>times = new ArrayList<>();
-        for (int i = 0; i<t; i++){
+        ArrayList<ArrayList<String>> times = new ArrayList<>();
+        for (int i = 0; i < t; i++) {
             times.add(new ArrayList<>());
         }
         for (int i = 0; i < qa; i++) {
             times.get(i % t).add(alunos.get(i).nome);
         }
-        for (int i = 0; i <t ; i++){
-            System.out.println("Time "+(i+1));
-            ArrayList<String>time = times.get(i);
+        for (int i = 0; i < t; i++) {
+            System.out.println("Time " + (i + 1));
+            ArrayList<String> time = times.get(i);
             Collections.sort(time);
-            for (String jogador:time){
+            for (String jogador : time) {
                 System.out.println(jogador);
             }
             System.out.println();
